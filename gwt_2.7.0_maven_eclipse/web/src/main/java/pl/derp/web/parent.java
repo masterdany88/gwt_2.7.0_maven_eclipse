@@ -43,7 +43,8 @@ public class parent implements EntryPoint {
    * This is the entry point method.
    */
   public void onModuleLoad() {
-    final Button sendButton = new Button( messages.sendButton() );
+	  //final Button sendButton = new Button( messages.sendButton() );
+    final Button sendButton = new Button( "Send button test blah blabh" );
     final TextBox nameField = new TextBox();
     nameField.setText( messages.nameField() );
     final Label errorLabel = new Label();
